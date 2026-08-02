@@ -1,0 +1,231 @@
+verified local target: 1031x1250; bytes=122428
+tile 29445,58302: rows=217 radius_unique=0
+tile 29445,58303: rows=236 radius_unique=0
+tile 29445,58304: rows=224 radius_unique=6
+tile 29445,58305: rows=225 radius_unique=11
+tile 29445,58306: rows=217 radius_unique=11
+tile 29446,58302: rows=214 radius_unique=11
+tile 29446,58303: rows=234 radius_unique=131
+tile 29446,58304: rows=215 radius_unique=319
+tile 29446,58305: rows=247 radius_unique=520
+tile 29446,58306: rows=255 radius_unique=594
+tile 29447,58302: rows=224 radius_unique=624
+tile 29447,58303: rows=225 radius_unique=831
+tile 29447,58304: rows=223 radius_unique=1040
+tile 29447,58305: rows=116 radius_unique=1141
+tile 29447,58306: rows=227 radius_unique=1306
+tile 29448,58302: rows=197 radius_unique=1330
+tile 29448,58303: rows=199 radius_unique=1515
+tile 29448,58304: rows=250 radius_unique=1741
+tile 29448,58305: rows=163 radius_unique=1879
+tile 29448,58306: rows=133 radius_unique=1961
+tile 29449,58302: rows=184 radius_unique=1961
+tile 29449,58303: rows=170 radius_unique=2054
+tile 29449,58304: rows=232 radius_unique=2268
+tile 29449,58305: rows=293 radius_unique=2525
+tile 29449,58306: rows=192 radius_unique=2590
+tile 29450,58302: rows=176 radius_unique=2590
+tile 29450,58303: rows=148 radius_unique=2590
+tile 29450,58304: rows=240 radius_unique=2601
+tile 29450,58305: rows=261 radius_unique=2609
+tile 29450,58306: rows=206 radius_unique=2609
+inventory: raw=2609 coarse=1065
+coarse: downloaded 50/1065
+coarse: downloaded 100/1065
+coarse: downloaded 150/1065
+coarse: downloaded 200/1065
+coarse: downloaded 250/1065
+coarse: downloaded 300/1065
+coarse: downloaded 350/1065
+coarse: downloaded 400/1065
+coarse: downloaded 450/1065
+coarse: downloaded 500/1065
+coarse: downloaded 550/1065
+coarse: downloaded 600/1065
+coarse: downloaded 650/1065
+coarse: downloaded 700/1065
+coarse: downloaded 750/1065
+coarse: downloaded 800/1065
+coarse: downloaded 850/1065
+coarse: downloaded 900/1065
+coarse: downloaded 950/1065
+coarse: downloaded 1000/1065
+coarse: downloaded 1050/1065
+coarse: scored 20/1065 top=661.72
+coarse: scored 40/1065 top=677.69
+coarse: scored 60/1065 top=677.69
+coarse: scored 80/1065 top=677.69
+coarse: scored 100/1065 top=677.69
+coarse: scored 120/1065 top=1018.32
+coarse: scored 140/1065 top=1018.32
+coarse: scored 160/1065 top=1374.76
+coarse: scored 180/1065 top=1374.76
+coarse: scored 200/1065 top=1374.76
+coarse: scored 220/1065 top=1374.76
+coarse: scored 240/1065 top=1374.76
+coarse: scored 260/1065 top=1374.76
+coarse: scored 280/1065 top=1374.76
+coarse: scored 300/1065 top=1374.76
+coarse: scored 320/1065 top=1374.76
+coarse: scored 340/1065 top=1458.70
+coarse: scored 360/1065 top=1598.91
+coarse: scored 380/1065 top=1614.60
+coarse: scored 400/1065 top=1614.60
+coarse: scored 420/1065 top=1614.60
+coarse: scored 440/1065 top=1614.60
+coarse: scored 460/1065 top=1614.60
+coarse: scored 480/1065 top=1614.60
+coarse: scored 500/1065 top=1614.60
+coarse: scored 520/1065 top=1614.60
+coarse: scored 540/1065 top=1614.60
+coarse: scored 560/1065 top=1614.60
+coarse: scored 580/1065 top=1614.60
+coarse: scored 600/1065 top=1614.60
+coarse: scored 620/1065 top=1614.60
+coarse: scored 640/1065 top=1614.60
+coarse: scored 660/1065 top=1614.60
+coarse: scored 680/1065 top=1614.60
+coarse: scored 700/1065 top=1614.60
+coarse: scored 720/1065 top=1614.60
+coarse: scored 740/1065 top=1614.73
+coarse: scored 760/1065 top=1614.73
+coarse: scored 780/1065 top=1614.73
+coarse: scored 800/1065 top=1614.73
+coarse: scored 820/1065 top=1614.73
+coarse: scored 840/1065 top=1614.73
+coarse: scored 860/1065 top=1614.73
+coarse: scored 880/1065 top=1614.73
+coarse: scored 900/1065 top=1614.73
+coarse: scored 920/1065 top=1614.73
+coarse: scored 940/1065 top=1614.73
+coarse: scored 960/1065 top=1614.73
+coarse: scored 980/1065 top=1614.73
+coarse: scored 1000/1065 top=1614.73
+coarse: scored 1020/1065 top=1614.73
+coarse: scored 1040/1065 top=1614.73
+coarse: scored 1060/1065 top=1614.73
+fine selection from 55 seeds: 882 unique raw panos
+fine: downloaded 50/882
+fine: downloaded 100/882
+fine: downloaded 150/882
+fine: downloaded 200/882
+fine: downloaded 250/882
+fine: downloaded 300/882
+fine: downloaded 350/882
+fine: downloaded 400/882
+fine: downloaded 450/882
+fine: downloaded 500/882
+fine: downloaded 550/882
+fine: downloaded 600/882
+fine: downloaded 650/882
+fine: downloaded 700/882
+Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x7f51ac952250>, 8597.445235243)])']
+connector: <aiohttp.connector.TCPConnector object at 0x7f51b0a61210>
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f51ad9281d0>
+Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x7f51ac831650>, 8596.475250103), (<aiohttp.client_proto.ResponseHandler object at 0x7f51ad9d6550>, 8604.022048366), (<aiohttp.client_proto.ResponseHandler object at 0x7f51ad9d5150>, 8604.092052058), (<aiohttp.client_proto.ResponseHandler object at 0x7f51ad9d60d0>, 8604.094478785)])']
+connector: <aiohttp.connector.TCPConnector object at 0x7f51ad929e50>
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f51ad87db90>
+Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x7f51ac8614d0>, 8634.266504393)])']
+connector: <aiohttp.connector.TCPConnector object at 0x7f51ad87dd10>
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f51ad490a50>
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f51ad4983d0>
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f51ad36e650>
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f51ad3e8b10>
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f51ad242390>
+Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x7f51ad277150>, 8763.386329256), (<aiohttp.client_proto.ResponseHandler object at 0x7f51ad274c50>, 8765.423870026)])']
+connector: <aiohttp.connector.TCPConnector object at 0x7f51ad242d10>
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f51ac8e7850>
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f51b0bb4090>
+Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x7f51ad9d68d0>, 8582.753652938), (<aiohttp.client_proto.ResponseHandler object at 0x7f51ad9d5bd0>, 8582.758783826), (<aiohttp.client_proto.ResponseHandler object at 0x7f51ad9d66d0>, 8582.76262712), (<aiohttp.client_proto.ResponseHandler object at 0x7f51ac830550>, 8582.767751471)])']
+connector: <aiohttp.connector.TCPConnector object at 0x7f51b0bb6310>
+Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x7f51ac8ee650>, 8596.600398224)])']
+connector: <aiohttp.connector.TCPConnector object at 0x7f51b0a37490>
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f51ac813a90>
+Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x7f51ac8ec050>, 8583.014024814), (<aiohttp.client_proto.ResponseHandler object at 0x7f51ac8ee3d0>, 8583.016624915), (<aiohttp.client_proto.ResponseHandler object at 0x7f51ac8ec150>, 8590.023296857), (<aiohttp.client_proto.ResponseHandler object at 0x7f51ad9d6a50>, 8590.036854092), (<aiohttp.client_proto.ResponseHandler object at 0x7f51ad9d59d0>, 8590.043103733)])']
+connector: <aiohttp.connector.TCPConnector object at 0x7f51b0dedad0>
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f51b0ad8790>
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f51ad939ad0>
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f51ac963950>
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f51ac960710>
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f51b0a8af90>
+Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x7f51ad9d5450>, 8632.353142487)])']
+connector: <aiohttp.connector.TCPConnector object at 0x7f51b0a89ed0>
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f51b0b30510>
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f51b17bacd0>
+Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x7f51ad9d7850>, 8666.605722058)])']
+connector: <aiohttp.connector.TCPConnector object at 0x7f51ad8a4090>
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f51ad8c8450>
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f51ad9283d0>
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f51b0af8dd0>
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f51ad4dbd90>
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f51ad886f50>
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f51ad33a010>
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f51ad331390>
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f51b0bc0450>
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f51ad467c90>
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f51ad3334d0>
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f51ad3c89d0>
+fine: downloaded 750/882
+fine: downloaded 800/882
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f51ad3fa0d0>
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f51b0bc2d10>
+fine: downloaded 850/882
+fine: scored 20/882 top=1074.30
+fine: scored 40/882 top=1074.30
+fine: scored 60/882 top=1074.30
+fine: scored 80/882 top=1194.44
+fine: scored 100/882 top=1194.44
+fine: scored 120/882 top=1194.44
+fine: scored 140/882 top=1194.44
+fine: scored 160/882 top=1194.44
+fine: scored 180/882 top=1194.44
+fine: scored 200/882 top=1388.64
+fine: scored 220/882 top=1388.64
+fine: scored 240/882 top=1388.64
+fine: scored 260/882 top=1388.64
+fine: scored 280/882 top=1388.64
+fine: scored 300/882 top=1388.64
+fine: scored 320/882 top=1650.74
+fine: scored 340/882 top=1650.74
+fine: scored 360/882 top=1650.74
+fine: scored 380/882 top=1650.74
+fine: scored 400/882 top=1650.74
