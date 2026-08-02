@@ -1,0 +1,72 @@
+[9] 在劫可逃: 我比较好奇你2017的结论是怎么来的！TinEye显示第一张图最早出现时间是2020.10.4，由一个名叫SaidBl1的网友发布在reddit；第二张图则是（五天后）2020.10.9，由BOU13AH101发布于imgur
+  {"file": "009_00_fb1df83483929b18bdff3615c36d2fc3.png", "url": "https://i.chao-fan.com/biz/fb1df83483929b18bdff3615c36d2fc3.png", "bytes": 254966}
+[10] 猫: Bing 2016.11 不知道是不是索引错了
+  {"file": "010_00_39628fda341338f8f608ddf7532eb298.png", "url": "https://i.chao-fan.com/biz/39628fda341338f8f608ddf7532eb298.png", "bytes": 800469}
+[11] 在劫可逃: 猫佬又给我打开了一个新视野，我都不知道还有个必应搜图！！刚去试了下，第1条跟第2条不知道是不是作者删除了，链接失效。第3条，显示的日期是2017.7.12，但是他的博客下这个日期没有内容，倒是在2020.11.11看到了。眼下还有一种可能是作者删除了，或者真的是索引出了错，不好说。我并不打算全盘信任TinEye，但在没有新证据加入以前，只能暂时认为TinEye是可靠的
+  {"file": "011_00_870841c45a84c5b6db95f2f86b45794a.png", "url": "https://i.chao-fan.com/biz/870841c45a84c5b6db95f2f86b45794a.png", "bytes": 59212}
+  {"file": "011_01_647785cda34d1726223f15295b5204be.png", "url": "https://i.chao-fan.com/biz/647785cda34d1726223f15295b5204be.png", "bytes": 2082081}
+  {"file": "011_02_4794c0502b4be82db332d1e60e84c9b7.png", "url": "https://i.chao-fan.com/biz/4794c0502b4be82db332d1e60e84c9b7.png", "bytes": 1133259}
+[14] 宇科君: 疑似在墨西哥，Coyoacán这里拍摄的，马路南北朝向，
+  {"file": "014_00_a8a3b4ff5a70b3db9437355f098b2f8b.png", "url": "https://i.chao-fan.com/biz/a8a3b4ff5a70b3db9437355f098b2f8b.png", "bytes": 2453167}
+[15] 在劫可逃: 虽然评论也有很多人说墨西哥，但我看车牌最后一个数字上方是空白的，而墨西哥车牌上或多或少都有一些图案，总觉得有点别扭。当然啦，图片太糊，这也许说明不了什么
+  {"file": "015_00_d4063d5eb05b34c3de21868cc8a8f451.png", "url": "https://i.chao-fan.com/biz/d4063d5eb05b34c3de21868cc8a8f451.png", "bytes": 758881}
+  {"file": "015_01_16205c0fca08c52cbf9beb91a1a9fed0.png", "url": "https://i.chao-fan.com/biz/16205c0fca08c52cbf9beb91a1a9fed0.png", "bytes": 894613}
+[16] 宇科君: 这是墨西哥当地的车，也没有哦
+  {"file": "016_00_df4318f171f319aec40aaf2988a9c1b2.jpg", "url": "https://i.chao-fan.com/biz/df4318f171f319aec40aaf2988a9c1b2.jpg", "bytes": 278933}
+[20] W_Pickaxe: 不大像 虽然橘色的房子和那棵树看似很相近但是仔细观察一下 墙体不大相同 相邻建筑也有问题 道路宽度也不大对
+  {"file": "020_00_d2f62e2b644bca5b87555a733f74848c.jpg", "url": "https://i.chao-fan.com/biz/d2f62e2b644bca5b87555a733f74848c.jpg", "bytes": 205425}
+[24] 宇科君: 我把科约坎城分成了35个区域，有兴趣的朋友可以一起领一个区域找找看，这是区域文件，https://wwu.lanzouw.com/i0hRg04ky6hc，打开谷歌地球，https://earth.google.com/，导入文件查看.........
+  {"file": "024_00_7af9c7630767660d459cf3247dc05e93.png", "url": "https://i.chao-fan.com/biz/7af9c7630767660d459cf3247dc05e93.png", "bytes": 2756389}
+[33] lan718: 
+  {"file": "033_00_c2ee26716591d90e618ab48a2fd9d836.jpg", "url": "https://i.chao-fan.com/biz/c2ee26716591d90e618ab48a2fd9d836.jpg", "bytes": 29639}
+[34] lan718: 
+  {"file": "034_00_85851e96b765da746546825f35087dd0.jpg", "url": "https://i.chao-fan.com/biz/85851e96b765da746546825f35087dd0.jpg", "bytes": 430203}
+[35] lan718: 
+  {"file": "035_00_714aa20b35f673c50b36643d901dce90.jpg", "url": "https://i.chao-fan.com/biz/714aa20b35f673c50b36643d901dce90.jpg", "bytes": 68053}
+[42] 太空小孩: 我试了下。暂无实锤，疑似墨西哥城，城北 1、首先是定位到了最早的出处，除此帖以外没有更早的公开发表记录。https://www.reddit.com/r/pics/comments/j591vq/ill_just_leave_this_here/ 2、结合墨西哥街景、车牌和水桶可以基本确定是在墨西哥没得跑（这个水桶在墨西哥几乎家家户户有） 3、Reddit 留言中的几个疑似地点都看了下，只有墨西哥城和瓜达拉哈拉符合在北回归线以南，其余都排除 4、似乎只有墨西哥城在马路牙子上有黄色的标线，优先筛选墨西哥城 5、墨西哥城北地形比城南平坦，看了街景，行道树的栽培风格、人行道水泥风格也更接近 6、具体地点很难找，墨西哥城几乎每条街都长这样，靠扫图的话就放弃了，还想尝试的话建议先筛查马路中间有双白线的街道，人行道和行道树风格接近的
+  {"file": "042_00_1663691503908_4921a774175e4187a0eaf43a59a609d1_0.png", "url": "https://i.chao-fan.com/biz/1663691503908_4921a774175e4187a0eaf43a59a609d1_0.png", "bytes": 4868277}
+  {"file": "042_01_1663691521888_8d2f3275b10e4306b55b6763ffed6480_0.png", "url": "https://i.chao-fan.com/biz/1663691521888_8d2f3275b10e4306b55b6763ffed6480_0.png", "bytes": 5570660}
+[48] IamPretend: 看了一個區 樹挺像 還有挺高檔？（道路到是以城市命名） 
+<p></p>19.550254, -99.215232
+  {"file": "048_00_1719514751765_0e9789c2a8cf433d8a2afe73311e5769_0.png", "url": "https://i.chao-fan.com/biz/1719514751765_0e9789c2a8cf433d8a2afe73311e5769_0.png", "bytes": 219697}
+[49] 巳也: 疑似墨西哥州的车牌 有没有有兴趣的兄弟
+  {"file": "049_00_1665766516089_ada2b6a76a6b4cf68eb90225751166cc_0.png", "url": "https://i.chao-fan.com/biz/1665766516089_ada2b6a76a6b4cf68eb90225751166cc_0.png", "bytes": 59458}
+  {"file": "049_01_1665766518289_1fb3c1aebc4a4c63a0131e7f0335758b_0.jpeg", "url": "https://i.chao-fan.com/biz/1665766518289_1fb3c1aebc4a4c63a0131e7f0335758b_0.jpeg", "bytes": 197424}
+  {"file": "049_02_1665766549410_a359af773c1c43e69fdeb84200842a27_0.jpeg", "url": "https://i.chao-fan.com/biz/1665766549410_a359af773c1c43e69fdeb84200842a27_0.jpeg", "bytes": 211733}
+[51] 巳也: 这是墨西哥州15-17年的车牌样式 图片最早出现的时间也差不多是那时候
+  {"file": "051_00_1665767052479_5c245ad6022540b489d02be5d16d9674_0.jpeg", "url": "https://i.chao-fan.com/biz/1665767052479_5c245ad6022540b489d02be5d16d9674_0.jpeg", "bytes": 14644}
+[62] 野草丛生: 你们就说这个像不像？ 图寻第三届个人锦标赛9:20位置这个图 看位置在墨西哥科萨塔尔
+  {"file": "062_00_1666661796428_8a30f6893b9e467da7f57ec67c73c08f_1.png", "url": "https://i.chao-fan.com/biz/1666661796428_8a30f6893b9e467da7f57ec67c73c08f_1.png", "bytes": 1145015}
+[63] 野草丛生: 我没有街景图，有的可以去找下，但是要注意，年份问题，这个原图可能会比街景更古老些，那些树可能长大了。
+  {"file": "063_00_1666662045377_aaf325fab1c44ae8b6b9839839ba260c_0.png", "url": "https://i.chao-fan.com/biz/1666662045377_aaf325fab1c44ae8b6b9839839ba260c_0.png", "bytes": 548659}
+[75] 按图索骥: 推特上有位外国人抱怨，有50个亚洲人问他这个图在哪，哈哈哈
+  {"file": "075_00_1668300366050_ff3b8906c1d94a2fbc7c4291819bfe0f_0.jpeg", "url": "https://i.chao-fan.com/biz/1668300366050_ff3b8906c1d94a2fbc7c4291819bfe0f_0.jpeg", "bytes": 256962}
+[86] ahfosh: 找了张分辨率更高的
+  {"file": "086_00_1669815338225_4a2b8941e2f94e4895a1f21f948489dc_0.jpg", "url": "https://i.chao-fan.com/biz/1669815338225_4a2b8941e2f94e4895a1f21f948489dc_0.jpg", "bytes": 157063}
+[87] 我就是我: 在百度看到了一些相似图片，但似乎没什么用😄
+  {"file": "087_00_1670041858101_2a99d709289a42d8ba65765a096ffc09_0.jpg", "url": "https://i.chao-fan.com/biz/1670041858101_2a99d709289a42d8ba65765a096ffc09_0.jpg", "bytes": 316863}
+[88] 红双喜: 哈哈，就这种吧
+  {"file": "088_00_1670653402503_873ab429e9a8442192461048b77536a4_0.png", "url": "https://i.chao-fan.com/biz/1670653402503_873ab429e9a8442192461048b77536a4_0.png", "bytes": 624896}
+[103] 炒饭45874729: 
+  {"file": "103_00_1671443256092_b03f1db5a2c04bf694b6f606649830c4_0.jpeg", "url": "https://i.chao-fan.com/biz/1671443256092_b03f1db5a2c04bf694b6f606649830c4_0.jpeg", "bytes": 126006}
+[104] 炒饭45874729: 
+  {"file": "104_00_1671443341872_c7be935126a7476ba568f4e9e74bc0ad_1.jpeg", "url": "https://i.chao-fan.com/biz/1671443341872_c7be935126a7476ba568f4e9e74bc0ad_1.jpeg", "bytes": 129029}
+[109] 皮皮林: 
+  {"file": "109_00_1675098035080_4d43976d9c0d47e08a9017ef39debbb9_0.png", "url": "https://i.chao-fan.com/biz/1675098035080_4d43976d9c0d47e08a9017ef39debbb9_0.png", "bytes": 29626}
+[129] Rain-: 找了一下，发现墨西哥城的居民区的路有好几种宽度。像原图那种宽度的我个人感觉是左右各停一辆车，中间有一辆车将不将能过，但是我在墨西哥城看了大概200条路后，只找到了一两条和原图宽度类似的(我称为Ш)，就是图12的这条，正好街上有一辆同款的老速腾车，绝大多数路都是要比原图宽一点点的，像是图3那样(Ш+)。还有很多图4那种再宽一点的(Ш++)，再宽的就和原图有很大差别了，我们暂且不讨论，我想问一下大家，我列出的这三种宽度，哪一种和原图最接近呢？我感觉是第一种，不是Ш+和Ш++，如果是第一种就是原图的宽度，那又能排除很大很大一部分路了，我的策略是把谷歌地图放最大，对着那条我们目标的路瞄一下宽度做一个纸片，再对着地图上的路比一下，一样宽就点进去看街景，然后那种Ш路，我目前发现的都是在街区的最边上，然而街区的最边上很少有两边都是住宅的。（以上个人看法，求大神们鉴定一下可行性）
+  {"file": "129_00_1692630261380_cc8ddccf05ed43d2a56c235baffa992a_0.png", "url": "https://i.chao-fan.com/biz/1692630261380_cc8ddccf05ed43d2a56c235baffa992a_0.png", "bytes": 3447195}
+  {"file": "129_01_1692630268839_4e4d105c98374eaa8e3ed5bd46198edb_0.png", "url": "https://i.chao-fan.com/biz/1692630268839_4e4d105c98374eaa8e3ed5bd46198edb_0.png", "bytes": 1814838}
+  {"file": "129_02_1692630416240_694f3d7daca74e25a8c784407a5bfe4a_0.png", "url": "https://i.chao-fan.com/biz/1692630416240_694f3d7daca74e25a8c784407a5bfe4a_0.png", "bytes": 2480203}
+  {"file": "129_03_1692630668699_ca2c2782e49345cc9df8e5933ae1fa98_0.png", "url": "https://i.chao-fan.com/biz/1692630668699_ca2c2782e49345cc9df8e5933ae1fa98_0.png", "bytes": 2189087}
+[133] 日本爱喝核污水: 如果不是亲眼所见，我是万万没想到
+  {"file": "133_00_1707015086232_e65da2a08dd04d0ab8929ee18c765b39_0.jpeg", "url": "https://i.chao-fan.com/biz/1707015086232_e65da2a08dd04d0ab8929ee18c765b39_0.jpeg", "bytes": 26539}
+[145] 谢特卡姆: 有可能是无街景，有些类似图中路宽的小道无街景，比如这张图
+  {"file": "145_00_1712981588158_dedc50bc87c94592b0d1acdc0d355eb6_0.jpeg", "url": "https://i.chao-fan.com/biz/1712981588158_dedc50bc87c94592b0d1acdc0d355eb6_0.jpeg", "bytes": 2407150}
+[146] IamPretend: 減速帶？
+  {"file": "146_00_1719512908730_f471f3574c7d4ddda4044a91f815bf38_0.png", "url": "https://i.chao-fan.com/biz/1719512908730_f471f3574c7d4ddda4044a91f815bf38_0.png", "bytes": 41292}
+  {"file": "146_01_1719512959728_60a28626ca79431a9df98e77ee233e99_0.png", "url": "https://i.chao-fan.com/biz/1719512959728_60a28626ca79431a9df98e77ee233e99_0.png", "bytes": 516488}
+[149] IamPretend: 相片疑似在meta擁有的上曾經流傳過 FBMD是上載至Meta旗下的平台的圖片會加註在EXIF上的印記 
+<p></p>https://github.com/commons-app/apps-android-commons/issues/2328
+  {"file": "149_00_1720027929741_74cdb072844c413893e8dc3ed3a2d324_0.png", "url": "https://i.chao-fan.com/biz/1720027929741_74cdb072844c413893e8dc3ed3a2d324_0.png", "bytes": 22897}
+[153] 谢特卡姆: 2014年的街景，托卢卡市郊也挺像的
+  {"file": "153_00_1722477782053_875e8705818a40d596aa68cf84d35b46_0.jpeg", "url": "https://i.chao-fan.com/biz/1722477782053_875e8705818a40d596aa68cf84d35b46_0.jpeg", "bytes": 145190}
