@@ -1,0 +1,46 @@
+name: Valle Dorado image geolocation
+
+on:
+  push:
+    branches: [geo-locate-valle-dorado-20260802]
+    paths:
+      - geolocate.py
+      - config.json
+      - requirements.txt
+      - data/**
+      - .github/workflows/geolocate.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  match:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: geo-locate-valle-dorado-20260802
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Search and compare KartaView imagery
+        run: python geolocate.py
+        continue-on-error: true
+      - name: Commit report and top matches
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add results/ || true
+          if ! git diff --cached --quiet; then
+            git commit -m "Add geolocation results [skip ci]"
+            git push origin HEAD:geo-locate-valle-dorado-20260802
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: geolocation-results
+          path: results/
+          if-no-files-found: warn
