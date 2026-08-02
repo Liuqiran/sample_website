@@ -49,3 +49,4 @@ jobs:
           name: gsv-ultra-results
           path: results/gsv_ultra/
           if-no-files-found: warn
+# retrigger after workflow registration
