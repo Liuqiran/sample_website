@@ -1,0 +1,30 @@
+name: Make tiny Douban thumbnails
+on:
+  push:
+    branches: [geo-locate-valle-dorado-20260802]
+    paths:
+      - make_tiny_thumbs.py
+      - .github/workflows/make-tiny-thumbs.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  thumbs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: geo-locate-valle-dorado-20260802
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install Pillow
+      - run: python make_tiny_thumbs.py
+      - run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add results/douban_tiny/
+          if ! git diff --cached --quiet; then
+            git commit -m 'Add tiny Douban thumbnails [skip ci]'
+            git push origin HEAD:geo-locate-valle-dorado-20260802
+          fi
