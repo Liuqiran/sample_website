@@ -4,7 +4,10 @@ on:
     branches: [geo-locate-valle-dorado-20260802]
     paths:
       - target_selfcheck.py
+      - data/target_embed.b64
       - .github/workflows/target-selfcheck.yml
+  pull_request:
+    branches: [main]
 permissions:
   contents: write
 jobs:
