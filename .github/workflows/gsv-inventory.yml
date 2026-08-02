@@ -1,0 +1,27 @@
+name: Google Street View coverage inventory
+on:
+  push:
+    branches: [geo-locate-valle-dorado-20260802]
+    paths:
+      - gsv_inventory.py
+      - .github/workflows/gsv-inventory.yml
+  pull_request:
+    branches: [main]
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: geo-locate-valle-dorado-20260802
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install streetlevel==0.12.10
+      - run: python gsv_inventory.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: gsv-coverage-inventory
+          path: results/gsv_inventory/
