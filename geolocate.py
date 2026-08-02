@@ -361,6 +361,9 @@ def make_contact_sheet(cands: list[Candidate], out: Path, limit: int = 24) -> No
         try:
             im = Image.open(ROOT / c.local_path).convert("RGB")
             im.thumbnail((360, 240))
+            thumb = im.copy()
+            thumb.thumbnail((280, 190))
+            thumb.save(RESULTS / f"top_{rank:02d}_{c.photo_id}.jpg", quality=48, optimize=True)
             card = Image.new("RGB", (380, 300), "white")
             card.paste(im, ((380 - im.width) // 2, 5))
             draw = ImageDraw.Draw(card)
