@@ -1,0 +1,26 @@
+name: Reverse image search probe
+on:
+  push:
+    branches: [geo-locate-valle-dorado-20260802]
+    paths:
+      - reverse_image_probe.py
+      - .github/workflows/reverse-image-probe.yml
+  pull_request:
+    branches: [main]
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: geo-locate-valle-dorado-20260802
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests beautifulsoup4
+      - run: python reverse_image_probe.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: reverse-image-search-results
+          path: results/reverse_image/
