@@ -4,6 +4,7 @@ on:
     branches: [geo-locate-valle-dorado-20260802]
     paths:
       - gsv_scan_estrella.py
+      - gsv_scan_estrella_fast.py
       - .github/workflows/gsv-scan-estrella.yml
   workflow_dispatch:
 permissions:
@@ -23,24 +24,24 @@ jobs:
           cache: pip
       - name: Install scanner dependencies
         run: pip install streetlevel==0.12.10 py360convert==1.0.4 opencv-python-headless==4.11.0.86 numpy==2.2.6 Pillow==11.2.1 requests==2.32.4 scipy
-      - name: Enumerate, download, and visually match Street View
+      - name: Coarse-to-fine Street View match
         shell: bash
         run: |
           set -o pipefail
-          mkdir -p results/gsv_estrella
-          python gsv_scan_estrella.py 2>&1 | tee results/gsv_estrella/run.log
+          mkdir -p results/gsv_estrella_fast
+          python gsv_scan_estrella_fast.py 2>&1 | tee results/gsv_estrella_fast/run.log
       - name: Commit scanner report to temporary branch
         if: always()
         shell: bash
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add results/gsv_estrella/ || true
+          git add results/gsv_estrella_fast/ || true
           if git diff --cached --quiet; then
             echo 'No scanner results to commit.'
             exit 0
           fi
-          git commit -m 'Add Estrella Street View scan results [skip ci]'
+          git commit -m 'Add fast Estrella Street View scan results [skip ci]'
           for attempt in 1 2 3 4 5; do
             git fetch origin geo-locate-valle-dorado-20260802
             if git rebase origin/geo-locate-valle-dorado-20260802 && git push origin HEAD:geo-locate-valle-dorado-20260802; then
@@ -53,7 +54,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: gsv-estrella-visual-search
-          path: results/gsv_estrella/
+          name: gsv-estrella-fast-visual-search
+          path: results/gsv_estrella_fast/
           if-no-files-found: warn
           retention-days: 30
