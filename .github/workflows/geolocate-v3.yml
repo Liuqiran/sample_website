@@ -4,6 +4,7 @@ on:
     branches: [geo-locate-valle-dorado-20260802]
     paths:
       - geolocate_v3.py
+      - run_v3_fixed.py
       - config.json
       - requirements.txt
       - .github/workflows/geolocate-v3.yml
@@ -24,7 +25,7 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - name: Fetch complete sequences and match actual target
-        run: python geolocate_v3.py
+        run: python run_v3_fixed.py
       - uses: actions/upload-artifact@v4
         if: always()
         with:
