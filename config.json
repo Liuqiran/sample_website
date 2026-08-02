@@ -1,0 +1,15 @@
+{
+  "bbox": {
+    "south": 19.545,
+    "north": 19.5615,
+    "west": -99.225,
+    "east": -99.204
+  },
+  "grid_rows": 5,
+  "grid_cols": 5,
+  "zoom_level": 16,
+  "max_downloads": 3000,
+  "download_workers": 12,
+  "score_workers": 4,
+  "douban_topic_id": "312383214"
+}
