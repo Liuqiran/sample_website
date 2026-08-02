@@ -6,6 +6,8 @@ on:
       - gsv_scan_estrella.py
       - gsv_scan_estrella_fast.py
       - .github/workflows/gsv-scan-estrella.yml
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 permissions:
   contents: write
