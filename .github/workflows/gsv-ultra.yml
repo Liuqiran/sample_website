@@ -5,6 +5,8 @@ on:
     paths:
       - gsv_ultra_thumbnail.py
       - .github/workflows/gsv-ultra.yml
+  pull_request:
+    branches: [main]
 permissions:
   contents: write
 jobs:
@@ -49,4 +51,3 @@ jobs:
           name: gsv-ultra-results
           path: results/gsv_ultra/
           if-no-files-found: warn
-# retrigger after workflow registration
