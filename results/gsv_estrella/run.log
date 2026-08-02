@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/runner/work/sample_website/sample_website/gsv_scan_estrella.py", line 425, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/home/runner/work/sample_website/sample_website/gsv_scan_estrella.py", line 405, in main
+    _, target_features = load_target()
+                         ^^^^^^^^^^^^^
+  File "/home/runner/work/sample_website/sample_website/gsv_scan_estrella.py", line 141, in load_target
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 418 Client Error: Unknown Status for url: https://img9.doubanio.com/view/group_topic/l/public/p735803186.webp
