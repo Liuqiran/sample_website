@@ -1,0 +1,33 @@
+inventory {'bbox': {'south': 19.468431821775063, 'north': 19.48100817822494, 'west': -99.12523476423179, 'east': -99.11189523576822}, 'raw': 3629, 'sampled': 442, 'errors': [], 'radius_m': 700.0, 'cell_m': 58.0}
+downloaded 500 / 3536
+downloaded 1000 / 3536
+downloaded 1500 / 3536
+downloaded 2000 / 3536
+downloaded 2500 / 3536
+downloaded 3000 / 3536
+downloaded 3500 / 3536
+scored 250 / 3536
+scored 500 / 3536
+scored 750 / 3536
+Traceback (most recent call last):
+  File "/home/runner/work/sample_website/sample_website/gsv_ultra_thumbnail.py", line 152, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/runner/work/sample_website/sample_website/gsv_ultra_thumbnail.py", line 130, in main
+    ranked.append(f.result())
+                  ^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/sample_website/sample_website/gsv_ultra_thumbnail.py", line 103, in score
+    pairs=bf.knnMatch(des1,des2,k=2);good=[m for m,q in pairs if m.distance<.70*q.distance]
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/sample_website/sample_website/gsv_ultra_thumbnail.py", line 103, in <listcomp>
+    pairs=bf.knnMatch(des1,des2,k=2);good=[m for m,q in pairs if m.distance<.70*q.distance]
+                                                 ^^^
+ValueError: not enough values to unpack (expected 2, got 1)
