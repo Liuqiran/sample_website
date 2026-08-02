@@ -1,0 +1,53 @@
+name: Rapid Estrella coarse scan
+on:
+  push:
+    branches: [geo-locate-valle-dorado-20260802]
+    paths:
+      - gsv_rapid_coarse.py
+      - .github/workflows/gsv-rapid.yml
+  pull_request:
+    branches: [main]
+permissions:
+  contents: write
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: geo-locate-valle-dorado-20260802
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - run: pip install streetlevel==0.12.10 py360convert==1.0.4 opencv-python-headless==4.11.0.86 numpy==2.2.6 Pillow==11.2.1 requests==2.32.4 scipy
+      - name: Run rapid coarse scan
+        shell: bash
+        run: |
+          set -o pipefail
+          mkdir -p results/gsv_rapid
+          python gsv_rapid_coarse.py 2>&1 | tee results/gsv_rapid/run.log
+      - name: Commit rapid results
+        if: always()
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add results/gsv_rapid/ || true
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Add rapid Estrella scan results [skip ci]'
+          for attempt in 1 2 3 4 5; do
+            git fetch origin geo-locate-valle-dorado-20260802
+            if git rebase origin/geo-locate-valle-dorado-20260802 && git push origin HEAD:geo-locate-valle-dorado-20260802; then exit 0; fi
+            git rebase --abort || true
+            sleep $((attempt * 5))
+          done
+          exit 1
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: gsv-rapid-results
+          path: results/gsv_rapid/
+          if-no-files-found: warn
